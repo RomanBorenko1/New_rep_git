@@ -1,0 +1,500 @@
+   50  ls
+   51  cd learning_git
+   52  ls
+   53  git pull
+   54  git status
+   55  cd 290724
+   56  ls
+   57  git status
+   58  rm -rf Roman_Borenko.txt 
+   59  ls
+   60  > Roman_Borenko.txt
+   61  ls
+   62  git status
+   63  git add .
+   64  git commit -m 'add feile'
+   65  git push
+   66  git clone git@github.com:RomanBorenko1/learning_git.git
+   67  cd
+   68  ls
+   69  cd Desktop/
+   70  ls
+   71  git clone git@github.com:RomanBorenko1/learning_git.git
+   72  ls
+   73  cd learning_git
+   74  ls
+   75  git pull
+   76  ls
+   77  rm -rf learning_git/
+   78  cd
+   79  ls
+   80  cd Desktop/
+   81  git clone git@github.com:RomanBorenko1/learning_git.git
+   82  cd learning_git/
+   83  ls
+   84  cd 290724
+   85  ls
+   86  > Roman_Borenko.txt
+   87  ls
+   88  git status
+   89  git add .
+   90  git commit -m 'Add feile'
+   91  git push
+   92  history
+   93  ps
+   94  ps aux
+   95  uname -a 
+   96  cd /
+   97  ;s
+   98  ls
+   99  cd /
+  100  ls
+  101  cd
+  102  ls
+  103  cd Desktop/q
+  104  cd Desktop/
+  105  ls
+  106  mkdir linux_1
+  107  cd linux_1
+  108  ls
+  109  nano sleeper.sh
+  110  ps -f
+  111  ps -ef
+  112  cd
+  113  ls
+  114  cd Desktop/
+  115  ls
+  116  cd linux_1
+  117  ls
+  118  ls
+  119  pwd
+  120  [200~
+  121  cat /etc/os-release
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd Linux_Homework/
+  126  ls
+  127  mkdir Linux_Домашнее_задание_15
+  128  nano sleeper.sh
+  129  l
+  130  ls
+  131  pwd
+  132  mv /c/Users/roma/Desktop/Linux_Homework/sleeper.sh /c/Users/roma/Desktop/Linux_Homework/Linux_Домашнее_задание_15
+  133  ls
+  134  cd Linux_Домашнее_задание_15
+  135  ls
+  136  git status
+  137  git add .
+  138  git commit -m 'add sleeper.sh'
+  139  git push
+  140  d
+  141  cd /
+  142  ls
+  143  cd
+  144  ls
+  145  cd Desktop/
+  146  ls
+  147  meld --version
+  148  ls
+  149  cd 24.10.2024/
+  150  git branch
+  151  git checkout main
+  152  git branch
+  153  nano "sadasdasd" > 1.txt
+  154  cd
+  155  ls
+  156  cd Desktop/
+  157  cd 24.10.2024/
+  158  ls
+  159  cat 1.txt 
+  160  cat 1.txt 
+  161  nano 1.txt 
+  162  rm 1.txt 
+  163  ls
+  164  nano "asdasdasd" > 1.txt
+  165  cd
+  166  cd Desktop/
+  167  cd 24.10.2024/
+  168  re 1.txt 
+  169  rm 1.txt 
+  170  ls
+  171  nano 1.txt
+  172  cat 1.txt 
+  173  git add .
+  174  git status
+  175  git commit "add feile"
+  176  git commit -m "add feile"
+  177  git branch
+  178  git checkout new_branch_1 
+  179  git branch
+  180  nano 1.txt
+  181  git add .
+  182  git commit -m "add nrw_weil_wrror"
+  183  git checkout main
+  184  git mergetool
+  185  git config --global merge.tool
+  186  git mergetool
+  187  git megre
+  188  git merge
+  189  git status
+  190  mkdir git-merge-test
+  191  ls
+  192  cd git-merge-test/
+  193  ls
+  194  pwd
+  195  cd /
+  196  ls
+  197  cd 
+  198  ls
+  199  mkdir git-merge-test
+  200  cd git-merge-test/
+  201  ls
+  202  pwd
+  203  git init
+  204  echo "this is some content to mess with" > merge.txt
+  205   git add merge.txt
+  206  git commit -am"we are commiting the inital content"
+  207   git checkout -b new_branch_to_merge_later
+  208  echo "totally different content to merge later" > merge.txt
+  209  git commit -am"edited the content of merge.txt to cause a conflict"
+  210  git checkout main
+  211  echo "content to append" >> merge.txt
+  212  git commit -am"appended content to merge.txt"
+  213  cd /
+  214  cd
+  215  cd Desktop/
+  216  ls'
+  217  ls
+  218  ls
+  219  history
+  220  cd
+  221  cd git-merge-test/
+  222  ls
+  223  git merge new_branch_to_merge_later
+  224  git status
+  225  git mergetool
+  226  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  227  cd /
+  228  ls
+  229  cd
+  230  ls
+  231  cd Desktop/
+  232  cd Linux_Homework/
+  233  git status
+  234  git commit -am "add scrips.sh"
+  235  git add .
+  236  git commit -m "add scrips.sh"
+  237  git push
+  238  ls
+  239  rm -rf 'Linux Домашнее задание 19'
+  240  ls
+  241  git add .
+  242  git commit
+  243  git push
+  244  git pull
+  245  ls
+  246  git clone git@github.com:RomanBorenko1/Linux_Homework.git
+  247  ls 
+  248  ls -la
+  249  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  250  top
+  251  pd -h
+  252  df -h
+  253  npx create-react-app german-articles-game
+  254  cd german-articles-gamecd
+  255  cd german-articles-game
+  256  npm install -D tailwindcss postcss autopreficer
+  257  npx tailwindcss init -p
+  258  nano tailwind.config.js 
+  259  cd src/
+  260  nano index.css
+  261  nano App.js 
+  262  npm start
+  263  pwd
+  264  cd german-articles-game/
+  265  npm install @radix-ui/react-icons @radix-ui/react-dropdown-menu classnames
+  266  npm install web-vitals
+  267  pwd
+  268  cd src/
+  269  nano App.js 
+  270  nano App.js 
+  271  npm start
+  272  cd german-articles-game/
+  273  mkdir components
+  274  cd components/
+  275  cd ..
+  276  cd src/
+  277  cd components/
+  278  pwd
+  279  cd ls -d
+  280  ls
+  281  mkdir components
+  282  ls
+  283  cd components/
+  284  mkdir ui
+  285  pwd
+  286  cd ui/
+  287  nano button.js
+  288  npm start
+  289  cd german-articles-game/
+  290  ls
+  291  cd src/
+  292  nano App.js 
+  293  nano App.css 
+  294  npm start
+  295  cd german-articles-game/
+  296  cd src/
+  297  ls
+  298  nano App.js 
+  299  npm start
+  300  cd german-articles-game/
+  301  cd src/
+  302  nano App.js 
+  303  npm start
+  304  cd german-articles-game/
+  305  cd src/
+  306  nano App.js 
+  307  npm start
+  308  cat /etc/git
+  309  cd ..
+  310  ls -l
+  311  cd ..
+  312  ls
+  313  cd
+  314  ls
+  315  pwd
+  316  cd Desktop/
+  317  cd DZ
+  318  ls
+  319  cd paytchon/
+  320  ls
+  321  git add Python_Fundamentals_2025_Домашнее_задание_4.txt 
+  322  git commit -m "Python_Fundamentals_2025_Домашнее_задание_4.txt"
+  323  git status
+  324  git statuse
+  325  git --help
+  326  git status
+  327  git push
+  328  git push --set-upstream origin main
+  329  ls -la
+  330  cat .ssh/id_rsa.pub
+  331  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  332  св
+  333  cd
+  334  ls
+  335  cd Desktop/
+  336  cd DZ
+  337  ls
+  338  cd paytchon/
+  339  ls
+  340  git edd Python_Fundamentals_2025_Домашнее_задание_5.txt
+  341  git edd.
+  342  git add Python_Fundamentals_2025_Домашнее_задание_5.txt
+  343  git status
+  344  git commit -m "Python_Fundamentals_2025_Домашнее_задание_5.txt"
+  345  git push
+  346  git status
+  347  ls
+  348  git add Python_Fundamentals_2025_Домашнее_задание_6.txt
+  349  git commit -m "Python_Fundamentals_2025_Домашнее_задание_6.txt"
+  350  git push
+  351  cd
+  352  mkdir -p /21_03
+  353  mkdir -p 21_03
+  354  cd 21_03/
+  355  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/Roman/21.txt .
+  356  ls -l
+  357  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJmcBmdNl/TzVCB5CccDxxXLCPKE3gJnNKkOVPEXChBC roma@DESKTOP-T74VU4S
+  358  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  359  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  360  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  361  free -h
+  362  df -h
+  363  top
+  364  free
+  365  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  366  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  367  cd
+  368  ls -l
+  369  cd ..
+  370  ls
+  371  cd 
+  372  ls
+  373  cd Desktop/
+  374  ls
+  375  cd DZ
+  376  ls
+  377  cd paytchon/
+  378  ls
+  379  git add Python_Fundamentals_2025_Домашнее_задание_7.txt
+  380  git status
+  381  git commit -m " Python_Fundamentals_2025_Домашнее_задание_7.txt"
+  382  git push
+  383  ls
+  384  git add Python_Fundamentals_2025_Домашнее_задание_8.txt
+  385  git status
+  386  git commit -m "Python_Fundamentals_2025_Домашнее_задание_8.txt"
+  387  git push
+  388  cd
+  389  ls
+  390  cd Desktop/
+  391  ls
+  392  mkdir -p Roman_Git
+  393  cd Roma
+  394  cd Roman_Git/
+  395  git init
+  396  git add 1.txt
+  397  ls
+  398  git add Screenshot_6.png 
+  399  git commit -m "first commit"
+  400  git branch -M main
+  401  git remote add origin git@github.com:RomanBorenko1/git_intro.git
+  402  git push -u origin main
+  403  git commit -m "Added photo"
+  404  git push
+  405  git add .
+  406  git commit -m "Added photo"
+  407  git push
+  408  cd
+  409  ls
+  410  cd Desktop/
+  411  ls
+  412  cd DZ
+  413  ls
+  414  cd paytchon/
+  415  ls
+  416  git add Python_Fundamentals_2025_Домашнее_задание_9.txt
+  417  git commit -m "Python_Fundamentals_2025_Домашнее_задание_9.txt"
+  418  git push
+  419  [200~ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de~
+  420  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  421  cd 
+  422  ls
+  423  cd Desktop/
+  424  cd DZ
+  425  ls
+  426  cd paytchon/
+  427  ls
+  428  git add Python_Fundamentals_2025_Домашнее_задание_11.txt
+  429  git status
+  430  git commit -m "Python_Fundamentals_2025_Домашнее_задание_11.txt"
+  431  git push
+  432  cd 
+  433  ls
+  434  cd Desktop/
+  435  mkdir -p Roman
+  436  cd Roma
+  437  cd Roman
+  438  ls
+  439  cd 
+  440  git clone git@github.com:RomanBorenko1/git_intro.git
+  441  cd git_intro/
+  442  ls
+  443  ls -la
+  444  git checkout -b Roman_1
+  445  git push origin Roman_1
+  446  > 1.txt
+  447  ls -la
+  448  git add .
+  449  git commit -m "1.txt"
+  450  git push
+  451  git push --set-upstream origin Roman_1
+  452  nano 1.txt 
+  453  git add .
+  454  git commit -m "1.txt"
+  455  git push
+  456  git branch main
+  457  git checkout main
+  458  git merge Roman_1 
+  459  git status
+  460  git push origin main
+  461  ls -la
+  462  git push --force
+  463  cd 
+  464  ls
+  465  cd git_intro/
+  466  ls
+  467  ls -la
+  468  > .gitignore 
+  469  ls
+  470  ls -la
+  471  nano .gitignore 
+  472  git checkaut -b gitignore
+  473  git checkout -b gitignore
+  474  git branch
+  475  ls -la
+  476  git add .
+  477  git stastus
+  478  git commit -m 'gitignore'
+  479  git push origin gitignore
+  480  cd
+  481  ls
+  482  cd Desktop/
+  483  cd DZ
+  484  ls
+  485  cd paytchon/
+  486  ls
+  487  git add Python Fundamentals 2025 Домашнее задание 12.txt'
+  488  git add . Python Fundamentals 2025 Домашнее задание 12.txt'
+  489  git add . lsPython Fundamentals 2025 Домашнее задание 12.txt'
+  490  ls
+  491  git add Python_Fundamentals_2025_Домашнее_задание_12.txt 
+  492  git commit -m 'Python_Fundamentals_2025_Домашнее_задание_12.txt '
+  493  git push
+  494  cd 
+  495  ls
+  496  cd Desktop/
+  497  mkdir Roman_githab
+  498  cd Roman_githab/
+  499  pwd
+  500  git status
+  501  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  502  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  503  ls
+  504  cd Desktop/
+  505  ls
+  506  mkdir Hausafgabe_linux
+  507  cd Hausafgabe_linux/
+  508  mkdir Hausafgabe_1
+  509  git clone git@github.com:RomanBorenko1/new_rep..git
+  510  git clone https://github.com/RomanBorenko1/new_rep..git
+  511  git init
+  512  git clone https://github.com/RomanBorenko1/new_rep..git
+  513  git clone https://github.com/RomanBorenko1/new_rep..git
+  514  git clone https://github.com/RomanBorenko1/new_rep.git
+  515  ls
+  516  ls -la
+  517  cd
+  518  ls
+  519  cd Desktop/
+  520  mkdir Git_rep_New
+  521  mkdir Git_rep
+  522  cd Git_rep
+  523  ls
+  524  git clone git@github.com:RomanBorenko1/New_rep_git.git
+  525  ls
+  526  ls -la
+  527  git branch -d feature
+  528  git init
+  529  git branch -d feature
+  530  ls
+  531  cd New_rep_git/
+  532  git branch -d feature
+  533  pwd
+  534  git checkout -b feature
+  535  ls
+  536  ls -la
+  537  nano\ .gitignore
+  538  nano .gitignore
+  539  nano README.md 
+  540  git commit -m "add feile"
+  541  git add .
+  542  git commit -m "add feile"
+  543  git push
+  544  git push --set-upstream origin feature
+  545  git commit --amend
+  546  git branch mein
+  547  git branch 
+  548  git checkout main 
+  549  history > history.txt
